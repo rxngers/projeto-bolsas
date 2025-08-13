@@ -42,7 +42,7 @@ header{
   justify-content: center;
   gap: 25px;
   a{
-    color: black;
+    color: #2b2b2b;
     &:hover{
       color: #038f26;
     }
@@ -55,4 +55,42 @@ header{
 
 .imagem2{
   width: 30px;
+}
+
+.newcol{
+  margin-top: 40px;
+  background: url(imagens/bolsa-wallpaper.jpg) no-repeat center center / cover;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.texts{
+  margin-left: 90px;
+h1{
+  width: 30px;
+  font-size: 50px;
+  margin: 50px;
+  font-family: system-ui ;
+}
+p{
+  margin: 50px;
+  width: 400px;
+}
+button{
+  margin: 50px; 
+
+}
+}
+
+.botaoverde{
+  width: 150px;
+  height: 45px;
+  background-color: green;
+  border-radius: 0;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
