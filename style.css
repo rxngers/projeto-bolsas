@@ -155,7 +155,7 @@ header {
 }
 
 .redes{
-  margin-top: 40px;
+  margin-top: 55px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -168,7 +168,7 @@ header {
 .links2{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
   gap: 10px;
   a{
     color: var(--corTexto);
