@@ -174,3 +174,12 @@ header {
     color: var(--corTexto);
   }
 }
+
+footer{
+  margin-top: 20px;
+  background-color: rgb(195, 195, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
